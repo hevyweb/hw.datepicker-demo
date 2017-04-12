@@ -1,0 +1,40 @@
+{
+    "name": "hevyweb/hw.datepicker-demo",
+    "description": "Demo pade for the Datepicker",
+    "keywords": [
+        "demo",
+        "datepicker",
+        "javascript",
+        "jquery",
+        "library",
+        "select date",
+        "calendar"
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/hevyweb/hw.datepicker"
+        }
+    ],
+    "homepage": "https://hevyweb.github.io/hw.datepicker/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dmytro Dzyuba",
+            "email": "1932@bk.ru",
+            "homepage": "https://hevyweb.github.io/hw.datepicker/"
+        }
+    ],
+    "require": {
+        "hevyweb/hw.datepicker": "dev-master"
+    },
+    "suggest": {
+        "components/jquery": ">=1.9"
+    },
+    "support": {
+        "email": "1932@bk.ru",
+        "issues": "https://github.com/hevyweb/hw.datepicker/issues",
+        "source": "https://github.com/hevyweb/hw.datepicker",
+        "docs": "https://github.com/hevyweb/hw.datepicker#hwdatepicker"
+    }
+}
