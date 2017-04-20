@@ -63,7 +63,7 @@ $(document).ready(function(){
             onSelect: function(e){
                 var currentButton = $(e.currentTarget);
                 var minDate = new Date();
-                minDate.setTime(currentButton.attr("data-date"));
+                minDate.setTime(currentButton.attr("data-date"));//console.log(minDate);
                 datePicker5_2.minDate = minDate;
                 if (datePicker5_2.currentPicker != null) {
                     datePicker5_2.monthChange(minDate);
@@ -83,7 +83,7 @@ $(document).ready(function(){
                 maxDate.setTime(currentButton.attr("data-date"));
                 datePicker5_1.maxDate = maxDate;
                 if (datePicker5_1.currentPicker != null) {
-                    datePicker5_1.monthChange(minDate);
+                    datePicker5_1.monthChange(maxDate);
                 }
             }
         }

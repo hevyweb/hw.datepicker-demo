@@ -50,5 +50,6 @@ var DatePickerI18n = {
     'lastAvailableDate': 'Остання доступна дата',
     'firstAvailableDate': 'Перша доступна дата',
     'notAvailable': 'Дата  недоступна',
-    'description': 'Календар'
+    'description': 'Календар',
+    'close': 'Приховати'
 };
