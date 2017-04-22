@@ -1,0 +1,27 @@
+{
+    "name": "hevyweb/hw.datepicker",
+    "description": "A jQuery datepicker library",
+    "keywords": [
+        "datepicker",
+        "javascript",
+        "jquery",
+        "library",
+        "select date",
+        "calendar"
+    ],
+    "homepage": "https://hevyweb.github.io/hw.datepicker/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dmytro Dzyuba",
+            "email": "1932@bk.ru",
+            "homepage": "https://hevyweb.github.io/hw.datepicker/"
+        }
+    ],
+    "support": {
+        "email": "1932@bk.ru",
+        "issues": "https://github.com/hevyweb/hw.datepicker/issues",
+        "source": "https://github.com/hevyweb/hw.datepicker",
+        "docs": "https://github.com/hevyweb/hw.datepicker#hwdatepicker"
+    }
+}

@@ -1,0 +1,156 @@
+/**
+ * Hevyweb datepicker
+ * 
+ * Default theme for the datepicker
+ * @link https://github.com/hevyweb/hw.datepicker
+ * @author Dmytro Dzyuba <1932@bk.ru>
+ * @licence MIT
+ * @version 1.3.0
+ */
+
+.hw_datepicker{
+    font-size: 10px;
+    font-family: Verdana;
+    border: .1rem solid silver;
+    border-radius: .5em;
+    padding: .5em;
+    position: absolute;
+    color: #005C9D;
+    box-shadow: 0 .3em .5em rgba(0, 0, 0, 0.5);
+    background: #F5F5F5;
+    width: 25.6em;
+}
+
+.hw_datepicker button{
+    background: white;
+    border: .1em solid #005C9D;
+    border-radius: .2em;
+    margin: .2em;
+    padding: 0;
+    width: 2.21em;
+    height: 2.21em;
+    text-align: center;
+    vertical-align: middle;        
+    cursor: pointer;
+}
+
+.hw_datepicker button.hw_inactive {
+    display: none;
+}
+.hw_datepicker button.hw_unavailable {
+    border: .1em solid silver;
+    color: silver;
+    cursor: initial;
+    background: white
+}
+
+.hw_datepicker button.hw_currentDate{
+    font-weight: bold;
+    color: #ED3125;
+    border: .1em solid #ED3125;
+}
+
+.hw_datepicker button.hw_selectedDate{
+    background: #62a4b4;
+    border: .1em solid #62a4b4;
+    color: #fff;
+    text-shadow: 0 0 0 rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+}
+
+.hw_datepicker button.hw_activeDay{
+    background: #005C9D;
+    border: .1em solid #005C9D;
+    color: white;
+}
+
+.hw_monthLeft:before{
+    content: '<';
+}
+
+.hw_monthRight:before{
+    content: '>';
+}
+
+.hw_monthContainer{
+    display: table;
+}
+
+.hw_monthContainer div{
+    display: table-cell;
+}
+
+.hw_pickerBody {
+    display: table;
+    width: 100%;
+}
+
+.hw_pickerBodyHeader{
+    display: table-header-group;
+}
+
+.hw_pickerBodyHeader div{
+    display: table-cell;
+    font-weight: bold;
+    text-align: center;
+    line-height: 2.4em;
+    font-size: 1.2em;
+}
+
+.hw_week{
+    display: table-row;
+}
+
+.hw_day{
+    display: table-cell;
+}
+
+.hw_currentMonth{
+    width: 100%;
+    text-align: center;
+    font-size: 1.4em;
+}
+
+.hw_closed{
+    display: none;
+}
+
+.hw_close{
+    float: right;
+}
+
+.hw_close:before{
+    content: '\D7';
+}
+
+.hw_selectCurrentDate:before{
+    background: #000;
+    border-radius: 100%;
+    height: 1em;
+    width: 1em;
+    margin: 0 auto;
+    content: ' ';
+    display: block;
+}
+
+.hw_footer{
+    border-top: .1em solid silver;
+    display: block;
+    margin-top: .3em;
+    padding-top: .3em;
+}
+
+@media screen and (max-width: 256px) {
+    .hw_datepicker{
+        width: 100%;
+        left: 0;
+    }
+    
+    .hw_day {
+        border: .1em solid transparent;
+    }
+    
+    .hw_datepicker button{
+        width: 100%;
+    }
+}
